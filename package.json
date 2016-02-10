@@ -1,7 +1,7 @@
 {
-  "name": "foundation-sites-template",
+  "name": "blueoakinteractive.github.io",
   "version": "1.0.0",
-  "description": "Basic template for a new Foundation for Sites project.",
+  "description": "Blue Oak Interactive's error page for hosting clients.",
   "main": "gulpfile.js",
   "devDependencies": {
     "browser-sync": "^2.11.1",
@@ -20,13 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zurb/foundation-sites-template.git"
+    "url": "https://github.com/blueoakinteractive/blueoakinteractive.github.io"
   },
   "bugs": {
-    "url": "https://github.com/zurb/foundation-sites/issues",
-    "email": "foundation@zurb.com"
+    "url": "https://github.com/blueoakinteractive/blueoakinteractive.github.io/issues",
+    "email": "dustin@blueoi.com"
   },
-  "author": "ZURB <foundation@zurb.com>",
+  "author": "Dustin Harrell <dustin@blueoi.com>",
   "license": "MIT",
   "private": true,
   "dependencies": {

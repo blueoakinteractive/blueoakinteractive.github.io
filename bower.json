@@ -1,13 +1,13 @@
 {
-  "name": "foundation-sites-template",
+  "name": "blueoakinteractive.github.io",
   "version": "1.0.0",
   "authors": [
-    "ZURB <foundation@zurb.com>"
+    "Dustin Harrell <dustin@blueoi.com>"
   ],
-  "description": "Basic template for a new Foundation for Sites project.",
+  "description": "Blue Oak Interactive's error page for hosting clients.",
   "main": "index.html",
   "license": "MIT",
-  "homepage": "http://foundation.zurb.com",
+  "homepage": "https://github.com/blueoakinteractive/blueoakinteractive.github.io",
   "dependencies": {
     "foundation-sites": "~6.1.0",
     "motion-ui": "~1.1.0"
