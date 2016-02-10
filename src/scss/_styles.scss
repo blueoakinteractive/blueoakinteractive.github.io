@@ -8,12 +8,18 @@
   }
 }
 
+p.lead {
+  @include breakpoint(medium) {
+    font-size: rem-calc(25);
+  }
+}
+
 
 // Content Styles
 
 .content {
   display: none;
-  margin: 2rem auto;
+  margin: 2rem auto 4.25rem auto;
   @include breakpoint(medium) {
     margin: 5rem auto;
   }
@@ -24,15 +30,24 @@
     margin: 4rem auto;
   }
 }
-.logo img {
-  height: 3rem;
+.logo--large img {
+  padding: 0 2rem;
+}
+.logo--small img {
+  height: 1.5rem;
+  @include breakpoint(medium) {
+    height: 3rem;
+  }
 }
 .site-name {
   margin: 0 1rem;
   color: $light-gray;
-  font-size: rem-calc(20);
   text-transform: uppercase;
   font-weight: bold;
+  font-size: rem-calc(15);
+  @include breakpoint(medium) {
+    font-size: rem-calc(20);
+  }
 }
 footer {
   @include v-align();
