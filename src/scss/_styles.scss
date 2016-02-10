@@ -1,0 +1,51 @@
+// Base Styles
+
+.button {
+  font-weight: bold;
+  &:after {
+    content: '+';
+    padding-left: .5rem;
+  }
+}
+
+
+// Content Styles
+
+.content {
+  display: none;
+  margin: 2rem auto;
+  @include breakpoint(medium) {
+    margin: 5rem auto;
+  }
+}
+.content--left {
+  margin-bottom: 2rem;
+  @include breakpoint(medium) {
+    margin: 4rem auto;
+  }
+}
+.logo img {
+  height: 3rem;
+}
+.site-name {
+  margin: 0 1rem;
+  color: $light-gray;
+  font-size: rem-calc(20);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+footer {
+  @include v-align();
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background: $dark-gray;
+}
+
+// no-js styles
+html.no-js {
+  .content {
+    display: block;
+  }
+}
